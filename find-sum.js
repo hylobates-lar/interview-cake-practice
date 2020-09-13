@@ -11,7 +11,6 @@
 function findSum(array, sum) {
     
     for (let i = 0; i < array.length - 1; i++) {
-        // sum of 2 numbers should total target sum
         let missingNum = sum - array[i]
         for (let j = i + 1; j < array.length; j++) {
             if (array[j] === missingNum) {
