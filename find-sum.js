@@ -9,7 +9,7 @@
 
 // O(n^2)
 function findSum(array, sum) {
-    console.log('hello')
+    
     for (let i = 0; i < array.length - 1; i++) {
         // sum of 2 numbers should total target sum
         let missingNum = sum - array[i]
