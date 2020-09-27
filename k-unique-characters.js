@@ -1,5 +1,6 @@
-// // Find the longest substring with k unique characters in a given string
-// Given a string you need to print longest possible substring that has exactly M unique characters. If there are more than one substring of longest possible length, then print any one of them.
+// Find the longest substring with k unique characters in a given string
+// Given a string you need to print longest possible substring that has exactly M unique characters. 
+// If there are more than one substring of longest possible length, then print any one of them.
 // Examples:
 
 // "aabbcc", k = 1
@@ -20,9 +21,21 @@ let string = "aabbcc"
 let k = 1
 
 function findLongestSubstring(string, k) {
-    let substrings = []
+    // if string length is less than k, return null
+    if (string.length < k) {
+        return null
+    }
+    let maxSubstringArray = []
+    let tempSubstringArray = []
 
-    // iterate through string
+    //turn string to array
+    // let stringArray = string.split('')
+
+    // iterate through string array
+    for (let i = 0; i < string.length; i++) {
+        if(string[i])
+    }
+    // if there are less unique characters than k, return null
     // keep count of each letter
     // 
 
